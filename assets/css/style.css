@@ -549,11 +549,23 @@ header.sticky .nav-bar{
     width: 75%;
 }
 
+.bar .bootstrap::before{
+    width: 95%;
+}
+
+.bar .tailwindcss::before{
+    width: 90%;
+}
+
 .bar .reactjs::before{
     width: 80%;
 }
 
-.bar .figma::before{
+.bar .git::before{
+    width: 85%;
+}
+
+.bar .uiux::before{
     width: 85%;
 }
 
