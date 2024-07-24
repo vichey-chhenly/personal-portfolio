@@ -334,23 +334,14 @@ header.sticky .nav-bar{
     padding: 6rem 0;
 }
 
-.section-title-01{
-    font-size: 4.5rem;
-    font-weight: 800;
-    margin-bottom: 2rem;
-    background: linear-gradient(to top, transparent 0%, var(--first-color) 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    opacity: .1;
-}
-
-.section-title-02{
+.section-title{
     font-size: 2.5em;
     font-weight: 700;
+    margin-top: 4.5rem;
     transform: translateY(-80px);
 }
 
-.section-title-02::before{
+.section-title::before{
     content: '';
     position: absolute;
     width: 70px;
@@ -1293,11 +1284,7 @@ footer a{
         margin: 5rem 0 0 0;
     }
 
-    .section-title-01{
-        font-size: 3em;
-    }
-
-    .section-title-02{
+    .section-title{
         font-size: 2em;
         transform: translateY(-65px);
     }
